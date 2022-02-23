@@ -8,7 +8,7 @@
             </div>
             <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="text" class="form-control" name="email" value="<?php print htmlentities($email); ?>" />
+                <input type="email" class="form-control" name="email" value="<?php print htmlentities($email); ?>" />
             </div>
             <div class="form-group">
                 <label for="text">Задача:</label>
